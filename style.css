@@ -30,7 +30,7 @@ body {
     border-radius: 3%;
     margin: 0 auto;
     padding: 0%;
-    width: 600px;
+    width: 550px;
     height: 400px;
 }
 
@@ -41,7 +41,7 @@ body {
 */
 
 .productCardContent {
-    padding: 20px;
+    padding: 30px;
 }
 
 .productImage {
@@ -79,10 +79,16 @@ body {
 
 .discountPrice {
     color: hsl(158, 36%, 37%);
-    font-size: 24px;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .regularPrice {
     color: hsl(228, 12%, 48%);
-    font-size: 12px;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: line-through;
+    margin-left: 15px;
 }
