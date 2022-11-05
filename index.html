@@ -6,24 +6,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
         <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500,700">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fraunces:700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fraunces:400,700">
         <title>Product Preview Card Project | Frontend Mentor</title>
     </head>
     <body>
         <section id="mainContainer">
             <article class="productCard">
                 <div class="productCardImage">
-                    <img src="/images/image-product-desktop.jpg" alt="Image perfume product" class="productImage">
-                    <!-- <img src="./images/image-product-mobile.jpg" alt="Image QR code" id="qrCode"> -->
+                    <img src="./images/image-product-desktop.jpg" alt="Image of perfume product" class="productImage desktop">
+                    <!-- <img src="./images/image-product-mobile.jpg" alt="Image of perfume product" id="productImage mobile"> -->
                 </div>
                 <div class="productCardContent">
                     <h1 class="productType">PERFUME</h1>
                     <h2 class="productTitle">Gabrielle Essence Eau De Parfum</h2>
                     <p class="productDescription">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
-                    <span class="discountPrice">$149.99</span>
-                    <span class="regularPrice">$169.99</span>
-                    <img src="/images/icon-cart.svg" alt="Add to Cart button" class="addToCart">
+                    <div class="price">
+                        <span class="discountPrice">$149.99</span>
+                        <span class="regularPrice">$169.99</span>
+                    </div>
+                    <div class="button">
+                        <button class="addToCart"><img src="./images/icon-cart.svg" alt="Add to Cart button" class="cartIcon"> Add to Cart</button>
+                    </div>
                 </div>
             </article>
         </section>
