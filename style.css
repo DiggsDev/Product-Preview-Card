@@ -1,3 +1,18 @@
+@media screen and (max-width: 600px) {
+    .productCard {
+        flex-direction: column;
+    }
+    .productImageDesktop {
+        width: 250px;
+    }
+}
+
+.productImageMobile {
+    display: none;
+}
+
+
+
 * {
     box-sizing: border-box;
 }
@@ -33,7 +48,7 @@ html, body {
     padding: 30px;
 }
 
-.productImage {
+.productImageDesktop {
     border-top-left-radius: 3%;
     border-bottom-left-radius: 3%;
     max-height: 100%;
