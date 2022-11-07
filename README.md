@@ -1,2 +1,2 @@
 # Product-Preview-Card
- Creating a simply product preview card using HTML and CSS
+ Creating a simple product preview card using HTML and CSS
